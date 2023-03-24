@@ -2,6 +2,7 @@ import json
 from csv import DictReader
 from datetime import datetime
 from confluent_kafka import Producer
+from time import sleep
 
 conf = {'bootstrap.servers':'localhost:9092'}
 producer = Producer(conf)
@@ -17,4 +18,5 @@ if __name__ == '__main__':
                                    callback = lambda err, msg: print(f'Producing Message @ {datetime.now()} | Message Delivered to Topic =>', msg.topic()))
             except BufferError as bfer:
                 print('BufferError:{}'.format(bfer))
-            
+            producer.flush()
+            sleep(1)
