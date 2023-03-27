@@ -17,8 +17,6 @@
    ```
 
 Now you can check if the data streamed like this:
-![Streamed Data](https://github.com/fahmihamzah84/AvroSchema-Kafka-BigQuery/blob/master/imgs/Stream%20bitcoin.png?raw=true)
-
 ![Streamed Data](https://github.com/Galihbagusp/kafka-python-code/blob/master/bitcoin_bigquery/imgs/bit_coin_dataset.png?raw=true)
 
 ![Streamed Data](https://github.com/Galihbagusp/kafka-python-code/blob/master/bitcoin_bigquery/imgs/preview_table.png?raw=true)
