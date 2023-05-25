@@ -1,5 +1,6 @@
 # Stream Avro schema to Bigquery
 
+Put your gcp credentials inside <b>service_account</b> folder
 ### How to use:
 
 1. Feed GOOGLE_APPLICATION_CREDENTIALS with path to your service account json file
